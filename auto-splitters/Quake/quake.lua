@@ -61,13 +61,14 @@ end
 
 function state()
 
-    print("Current")
-    print_tbl(current)
-    print("Vars")
-    print(vars.lastMap)
-    print("lastmaps")
-    print_tbl(vars.lastVisitedMaps)
-    
+--Uncomment these for debugging.
+--     print("Current")
+--     print_tbl(current)
+--     print("Vars")
+--     print(vars.lastMap)
+--     print("lastmaps")
+--     print_tbl(vars.lastVisitedMaps)
+--     
     old = shallow_copy_tbl(current)
 
     if magic_signature == nil then
