@@ -2,6 +2,7 @@ process("dsda-doom", "first")
 
 --Runs on dsda-doom 0.29.3, Windows version (under Wine)
 --Probably broken in current state
+--https://github.com/kraflab/dsda-doom/releases/tag/v0.29.3
 
 local current = {gametic, gamestate, map, attempt, isMenuOpen, isDemoPlaying}
 local old = {gametic, gamestate, map, attempt, isMenuOpen, isDemoPlaying}
